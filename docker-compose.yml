@@ -10,8 +10,8 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
     environment:
-      POSTGRES_USER: javier
-      POSTGRES_PASSWORD: secretpassword2
+      POSTGRES_USER: johndoe
+      POSTGRES_PASSWORD: randompassword
       POSTGRES_DB: chat-tecsup
   
   adminer:
